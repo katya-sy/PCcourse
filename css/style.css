@@ -1,0 +1,131 @@
+body {
+  background-image: url(../img/background.png);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+.header-intro {
+  background: url(../img/intro.png), lightgray 50% / cover no-repeat;
+  min-height: 960px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  height: 120px;
+}
+
+.nav__list {
+  list-style: none;
+  width: 745px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  text-align: center;
+  line-height: 150%;
+  cursor: pointer;
+  transition: opacity ease-out .3s;
+}
+
+.nav__item:hover {
+  opacity: .4;
+}
+
+.header__btn {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.header__btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #121212;
+  opacity: 0;
+  transition: opacity ease-out 0.3s;
+}
+
+.header__btn:hover::after {
+  opacity: .2;
+}
+
+.intro {
+  margin-left: 312px;
+  margin-bottom: 218px;
+}
+
+.intro__title {
+  display: flex;
+  width: 920px;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.intro__counter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.counter__item {
+  display: inline-flex;
+  padding: 20px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+}
+
+.counter__quantity {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.counter__text {
+  text-align: center;
+  font-weight: 400;
+  line-height: 140%;
+  opacity: .4;
+}
