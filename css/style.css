@@ -233,3 +233,24 @@ body {
   line-height: 150%;
   opacity: .4;
 }
+
+
+.about {
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 134px;
+}
+
+.text-block__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 45px;
+}
+
+.text-block__text {
+  width: 636px;
+  line-height: 160%;
+}
