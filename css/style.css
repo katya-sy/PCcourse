@@ -820,3 +820,21 @@ body {
     margin-bottom: 80px;
   }
 }
+
+@media (max-width: 768px) {
+  .container, 
+  .container--mini {
+    width: 700px;
+  }
+  
+  .nav__list {
+    display: flex;
+    width: 470px;
+    height: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
