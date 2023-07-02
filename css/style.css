@@ -60,6 +60,7 @@ body {
   align-items: center;
   padding: 0 80px;
   height: 120px;
+  margin-bottom: 150px;
 }
 
 .nav__list {
@@ -100,14 +101,13 @@ body {
 }
 
 .intro {
-  margin-bottom: 218px;
+  padding-bottom: 218px;
 }
 
 .intro__title {
   display: flex;
   width: 920px;
   flex-direction: column;
-  margin-top: 150px;
   margin-bottom: 50px;
   font-size: 64px;
   font-weight: 700;
@@ -671,4 +671,152 @@ body {
   line-height: 160%;
   opacity: .8;
   margin-bottom: 30px;
+}
+
+
+@media (any-hover: hover) {
+  .nav__item:hover {
+    opacity: .4;
+  }
+  
+  .header__btn:hover::after {
+    opacity: .3;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .header-intro {
+    min-height: 400px;
+  }
+
+  .header {
+    padding: 0 20px;
+    margin-bottom: 100px;
+  }
+
+  .nav__list {
+    width: 650px;
+    padding: 0 15px;
+  }
+
+  .intro {
+    padding-bottom: 150px;
+  }
+
+  .achievements {
+    gap: 61px;
+  }
+
+  .achievements__list-indicator {
+    gap: 40px;
+  }
+
+  .achievements__item {
+    width: 230px;
+  }
+
+  .indicator__line {
+    width: 400px;
+  }
+
+  .about {
+    margin: 150px auto;
+    align-items: start;
+    gap: 70px;
+  }
+
+  .picture__img {
+    width: 35%;
+    height: auto;
+  }
+
+  .text-block__title {
+    margin-bottom: 30px;
+  }
+
+  .text-block__text {
+    width: 500px;
+  }
+
+  .start {
+    margin-bottom: 150px;
+  }
+
+  .start__text {
+    margin-bottom: 40px;
+  }
+
+  .infografic {
+    width: 900px;
+  }
+
+  .percent {
+    font-size: 32px;
+  }
+
+  .wrapper {
+    height: 60px;
+    width: 225px;
+    margin-bottom: 20px;
+  }
+
+  .desc {
+    width: 200px;
+  }
+
+  .advantages {
+    margin-bottom: 150px;
+  }
+
+  .advantages__title {
+    margin-bottom: 80px;
+  }
+
+  .item__icon {
+    margin-bottom: 30px;
+  }
+  
+  .item__title {
+    width: 275px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .item__desc {
+    width: 260px;
+  }
+
+  .partners {
+    margin-bottom: 150px;
+  }
+
+  .partners__first-part {
+    margin-bottom: 30px;
+  }
+
+  .item__img {
+    width: 60%;
+    height: auto;
+    padding: 20px 40px;
+  }
+
+  .program {
+    margin-bottom: 150px;
+  }
+
+  .program__icon {
+    margin-bottom: 15px;
+  }
+
+  .teachers {
+    margin-bottom: 150px;
+  }
+
+  .teachers__first-part {
+    margin-bottom: 80px;
+  }
 }
