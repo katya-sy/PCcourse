@@ -90,6 +90,7 @@ body {
   position: absolute;
   inset: 0;
   background-color: #121212;
+  border-radius: 50px;
   opacity: 0;
   transition: opacity ease-out 0.3s;
 }
@@ -170,6 +171,7 @@ body {
   position: absolute;
   inset: 0;
   background-color: #121212;
+  border-radius: 50px;
   opacity: 0;
   transition: opacity ease-out 0.3s;
 }
@@ -582,4 +584,91 @@ body {
 .teachers__btn:hover {
   color: #121212;
   background-color: white;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.footer__desc {
+  width: 411px;
+  text-align: center;
+  line-height: 160%;
+  opacity: .5;
+  margin-bottom: 60px;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer__form form input {
+  width: 353px;
+  height: 44px;
+  padding: 0;
+  padding-left: 30px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background: #404040;
+  color: white;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.footer__btn {
+  position: relative;
+  background: linear-gradient(141deg, #DF5950 0%, #451046 100%);
+  font-weight: 700;
+  height: 44px;
+  margin-left: -20px;
+}
+
+.footer__btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #121212;
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity ease-out 0.3s;
+}
+
+.footer__btn:hover::after {
+  opacity: .3;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.social__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%);
+}
+
+.copyright {
+  text-align: center;
+  line-height: 160%;
+  opacity: .8;
+  margin-bottom: 30px;
 }
