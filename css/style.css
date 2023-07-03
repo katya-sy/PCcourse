@@ -1028,3 +1028,124 @@ body {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 576px) {
+  .container,
+  .container--mini {
+    width: 500px;
+  }
+
+  .nav__list {
+    width: 280px;
+  }
+
+  .intro__title {
+    width: 500px;
+    font-size: 40px;
+  }
+
+  .intro__counter {
+    gap: 20px;
+  }
+
+  .counter__item {
+    padding: 15px 25px;
+  }
+
+  .achievements {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: auto;
+  }
+
+  .achievements__btn {
+    margin-bottom: 20px;
+  }
+
+  .achievements__list-indicator {
+    padding-top: 20px;
+  }
+
+  .about {
+    margin: 70px auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .picture__img {
+    display: none;
+  }
+
+  .start {
+    margin-bottom: 70px;
+  }
+
+  .infografic {
+    width: 500px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .article {
+    height: auto;
+  }
+
+  .article:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .desc {
+    width: 350px;
+  }
+
+  .advantages {
+    margin-bottom: 70px;
+  }
+
+  .advantages__title {
+    margin-bottom: 40px;
+  }
+
+  .partners {
+    margin-bottom: 70px;
+  }
+
+  .item__img {
+    padding: 10px 25px;
+  }
+
+  .program {
+    margin-bottom: 70px;
+  }
+
+  .program__scheme {
+    gap: 10px;
+  }
+
+  .scheme__left {
+    padding-right: 10px;
+    border-right-width: 2px;
+  }
+
+  .program__item::before {
+    display: none;
+  }
+
+  .program__item__title {
+    margin-bottom: 10px;
+  }
+
+  .program__text {
+    font-size: 16px;
+  }
+
+  .footer__form form input {
+    width: 320px;
+  }
+}
