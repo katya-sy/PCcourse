@@ -827,6 +827,11 @@ body {
     width: 700px;
   }
   
+
+  .header {
+    margin-bottom: 80px;
+  }
+
   .nav__list {
     display: flex;
     width: 470px;
@@ -836,5 +841,190 @@ body {
     align-content: space-around;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+
+  .intro {
+    padding-bottom: 100px;
+  }
+
+  .intro__title {
+    width: 700px;
+    font-size: 56px;
+  }
+
+  .achievements {
+    gap: 30px;
+  }
+
+  .achievements__list-indicator {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .achievements__list {
+    flex-direction: row;
+    width: 500px;
+  }
+
+  .achievements__item:first-child {
+    width: 160px;
+  }
+
+  .indicator__line {
+    width: 500px;
+    margin-bottom: 3px;
+  }
+
+  .about {
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .text-block__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .text-block__text {
+    width: 370px;
+  }
+
+  .start {
+    margin-bottom: 100px;
+  }
+
+  .start__first-part {
+    margin-bottom: 40px;
+  }
+
+  .start__icon {
+    width: auto;
+    height: 80px;
+  }
+
+  .start__title {
+    font-size: 36px;
+  }
+
+  .start__text {
+    margin-bottom: 30px;
+  }
+
+  .infografic {
+    width: 700px;
+  }
+
+  .percent {
+    font-size: 24px;;
+  }
+
+  .wrapper {
+    width: 175px;
+    height: 50px;
+  }
+
+  .desc {
+    width: 150px;
+    line-height: 150%;
+  }
+
+  .advantages {
+    margin-bottom: 100px;
+  }
+
+  .advantages__title {
+    font-size: 36px;
+    margin-bottom: 70px;
+  }
+
+  .advantages__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .item__icon {
+    width: 70px;
+    height: auto;
+  }
+
+  .partners {
+    margin-bottom: 100px;
+  }
+
+  .partners__icon {
+    width: auto;
+    height: 80px;
+  }
+
+  .partners__title {
+    font-size: 36px;
+  }
+
+  .program {
+    margin-bottom: 100px;
+  }
+
+  .program__icon {
+    width: 110px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .program__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .program__desc {
+    margin-bottom: 50px;
+  }
+
+  .teachers {
+    margin-bottom: 100px;
+  }
+
+  .teachers__first-part {
+    margin-bottom: 50px;
+  }
+
+  .teachers__icon {
+    width: 110px;
+    height: auto;
+  }
+
+  .teachers__title {
+    font-size: 36px;
+    padding-bottom: 10px;
+  }
+
+  .teachers__items {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .teachers__item {
+    width: 360px;
+  }
+
+  .teachers__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .teachers__img {
+    margin-bottom: 20px;
+  }
+
+  .teachers__name {
+    margin-bottom: 10px;
+  }
+
+  .teachers__desc {
+    margin-bottom: 20px;
+  }
+
+  .footer__title {
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 }
