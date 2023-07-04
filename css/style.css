@@ -77,10 +77,6 @@ body {
   transition: opacity ease-out .3s;
 }
 
-.header__nav__item:hover {
-  opacity: .4;
-}
-
 .header__btn {
   position: relative;
   background: linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%);
@@ -94,10 +90,6 @@ body {
   border-radius: 50px;
   opacity: 0;
   transition: opacity ease-out 0.3s;
-}
-
-.header__btn:hover::after {
-  opacity: .3;
 }
 
 .intro {
@@ -174,10 +166,6 @@ body {
   border-radius: 50px;
   opacity: 0;
   transition: opacity ease-out 0.3s;
-}
-
-.achievements__btn:hover::after {
-  opacity: .3;
 }
 
 .achievements__list {
@@ -291,7 +279,7 @@ body {
   margin-bottom: 80px;
 }
 
-.infografic {
+.infographic {
   display: flex;
   width: 1300px;
 }
@@ -585,11 +573,6 @@ body {
   transition: background-color ease-in .3s, color ease-in .3s;
 }
 
-.teachers__btn:hover {
-  color: #121212;
-  background-color: white;
-}
-
 
 .footer {
   display: flex;
@@ -650,10 +633,6 @@ body {
   transition: opacity ease-out 0.3s;
 }
 
-.footer__btn:hover::after {
-  opacity: .3;
-}
-
 .social {
   display: flex;
   gap: 30px;
@@ -684,6 +663,19 @@ body {
   }
   
   .header__btn:hover::after {
+    opacity: .3;
+  }
+
+  .achievements__btn:hover::after {
+    opacity: .3;
+  }
+  
+  .teachers__btn:hover {
+    color: #121212;
+    background-color: white;
+  }
+  
+  .footer__btn:hover::after {
     opacity: .3;
   }
 }
@@ -754,7 +746,7 @@ body {
     margin-bottom: 40px;
   }
 
-  .infografic {
+  .infographic {
     width: 900px;
   }
 
@@ -914,7 +906,7 @@ body {
     margin-bottom: 30px;
   }
 
-  .infografic {
+  .infographic {
     width: 700px;
   }
 
@@ -1085,7 +1077,7 @@ body {
     margin-bottom: 70px;
   }
 
-  .infografic {
+  .infographic {
     width: 500px;
     flex-wrap: wrap;
     flex-direction: column;
@@ -1227,7 +1219,7 @@ body {
     width: 350px;
   }
 
-  .infografic {
+  .infographic {
     width: 350px;
   }
 
