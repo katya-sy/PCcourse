@@ -850,11 +850,13 @@ body {
 
   .achievements {
     gap: 30px;
+    height: auto;
   }
 
   .achievements__list-indicator {
     flex-direction: column;
     gap: 10px;
+    padding: 15px 0;
   }
 
   .achievements__list {
@@ -864,6 +866,10 @@ body {
 
   .achievements-item:first-child {
     width: 160px;
+  }
+
+  .achievements-item--indicator {
+    min-width: 280px;
   }
 
   .indicator__line {
@@ -1097,7 +1103,7 @@ body {
   }
 
   .desc {
-    width: 350px;
+    width: 330px;
   }
 
   .advantages {
@@ -1142,14 +1148,14 @@ body {
   }
 
   .footer__form form input {
-    width: 320px;
+    width: 310px;
   }
 }
 
 @media (max-width: 376px) {
   .container,
   .container--mini {
-    width: 350px;
+    width: 330px;
   }
 
   .header {
@@ -1173,7 +1179,7 @@ body {
   }
 
   .intro__title {
-    width: 350px;
+    width: 330px;
     margin-bottom: 30px;
   }
 
@@ -1186,17 +1192,21 @@ body {
   }
 
   .achievements__list-indicator {
-    width: 350px;
+    width: 330px;
     gap: 20px;
   }
 
   .achievements__list {
-    width: 350px;
+    width: 330px;
     flex-direction: column;
   }
 
+  .achievements-item--indicator {
+    width: 280px;
+  }
+
   .indicator__line {
-    width: 350px;
+    width: 330px;
   }
 
   .about {
@@ -1204,7 +1214,7 @@ body {
   }
 
   .about-text-block__text {
-    width: 350px;
+    width: 330px;
   }
 
   .start {
@@ -1216,15 +1226,19 @@ body {
   }
 
   .start__text {
-    width: 350px;
+    width: 330px;
   }
 
   .infographic {
-    width: 350px;
+    width: 330px;
   }
 
   .partners {
     margin-bottom: 50px;
+  }
+
+  .partners__icon {
+    padding-right: 30px;
   }
 
   .partners-item {
@@ -1248,7 +1262,7 @@ body {
   }
 
   .program__desc {
-    width: 350px;
+    width: 330px;
     margin-bottom: 30px;
   }
 
@@ -1271,7 +1285,9 @@ body {
   }
 
   .teachers__icon {
-    padding-right: 5px;
+    padding-right: 0;
+    width: 100px;
+    height: auto;
   }
 
   .teachers__title {
@@ -1279,7 +1295,7 @@ body {
   }
 
   .footer__desc {
-    width: 350px;
+    width: 330px;
     margin-bottom: 30px;
   }
 
@@ -1288,7 +1304,7 @@ body {
   }
 
   .footer__form form input {
-    width: 180px;
+    width: 160px;
   }
 
   .social {
